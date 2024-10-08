@@ -6,23 +6,16 @@ import java.util.*;
 public class ThreeSumClosest {
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
-//        System.out.println("nums: " + Arrays.toString(nums));
         int closestSum = nums[0] + nums[1] + nums[2];
 
         int n = nums.length;
         for (int i = 0; i < n - 2; i++) {
-//            System.out.println("--------------------------------------");
-//            System.out.println("i: " + i);
 
             int left = i + 1;
-            int right = nums.length - 1;
+            int right = n - 1;
 
             while (left < right) {
                 int curSum = nums[i] + nums[left] + nums[right];
-
-//                System.out.println("nums[i]: " + nums[i] + ", nums[left]: " + nums[left] + ", nums[right]: " + nums[right]);
-//                System.out.println("curSum: " + curSum);
-//                System.out.println("closestSum: " + closestSum);
 
                 if (Math.abs(target - curSum) < Math.abs(target - closestSum)) {
                     closestSum = curSum;
