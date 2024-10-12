@@ -15,7 +15,7 @@ public class MinimumGroups {
             }
             groups.offer(interval[1]);
         }
-        System.out.println(groups);
+
         return groups.size();
     }
 
