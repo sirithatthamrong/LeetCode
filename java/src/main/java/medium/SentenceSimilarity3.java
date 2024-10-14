@@ -2,7 +2,7 @@ package medium;
 
 import java.util.*;
 
-// https://leetcode.com/problems/sentence-similarity-iii/description/?envType=daily-question&envId=2024-10-06
+// https://leetcode.com/problems/sentence-similarity-iii/
 public class SentenceSimilarity3 {
     public boolean areSentencesSimilar(String sentence1, String sentence2) {
         String[] s1 = sentence1.split(" ");

@@ -2,7 +2,7 @@ package medium;
 
 import java.util.*;
 
-// https://leetcode.com/problems/my-calendar-i/description/?envType=daily-question&envId=2024-09-26
+// https://leetcode.com/problems/my-calendar-i/
 public class MyCalendar {
     private List<int[]> events;
 

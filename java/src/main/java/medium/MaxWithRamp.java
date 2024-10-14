@@ -2,7 +2,7 @@ package medium;
 
 import java.util.*;
 
-// https://leetcode.com/problems/maximum-width-ramp/description/
+// https://leetcode.com/problems/maximum-width-ramp/
 public class MaxWithRamp {
     public int maxWidthRamp(int[] nums) {
         List<int[]> indexedNums = new ArrayList<>();

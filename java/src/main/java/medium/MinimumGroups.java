@@ -2,7 +2,7 @@ package medium;
 
 import java.util.*;
 
-// https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/?envType=daily-question&envId=2024-10-12
+// https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/
 public class MinimumGroups {
     public int minGroups(int[][] intervals) {
         Arrays.sort(intervals, Comparator.comparingInt(x -> x[0]));
